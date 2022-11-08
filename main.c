@@ -17,7 +17,7 @@ int enc(char *in_file, char *out_file, uint32_t param_3, uint32_t param_4) {
     uint32_t *puVar3;
     unsigned char *output_buf;
     uint32_t uVar5;
-    uint local_c4;
+    unsigned int local_c4;
     uint32_t local_c0[32];
     unsigned char local_30[16];
     unsigned char local_20[16];
@@ -115,7 +115,7 @@ int dec(char *in_file, char *out_file, uint32_t param_3) {
     int iVar3;
     uint32_t *puVar4;
     uint32_t uVar6;
-    uint local_c4;
+    unsigned int local_c4;
     uint32_t local_c0[32];
     unsigned char local_30[16];
     unsigned char local_20[16];
